@@ -13,7 +13,7 @@ stack = stackBuilder\
     .push(EchoLayer)\
     .build()
 
-stack.setProfile("56xxxxxxxxx") # phone
+stack.setProfile("56921788592") # phone
 YowsupEnv.setEnv("android")
 stack.setProp(PROP_IDENTITY_AUTOTRUST, True)
 stack.broadcastEvent(YowLayerEvent(YowNetworkLayer.EVENT_STATE_CONNECT))
